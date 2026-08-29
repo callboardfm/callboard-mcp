@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fm.callboard/connector",
+  "title": "Callboard",
+  "description": "Run and read Promoter Briefs from your AI assistant. Callboard turns a booking question — should I book this artist in this city? — into a defensible brief: market fit score, venue sizing, tiered pricing, deal economics and risk flags. Requires a Callboard account (Buyer or Company plan).",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.callboard.fm/docs/mcp",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://api.callboard.fm/mcp" },
+    { "type": "sse", "url": "https://api.callboard.fm/sse" }
+  ]
+}
