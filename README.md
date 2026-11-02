@@ -17,23 +17,25 @@ market fit score, venue sizing, tiered pricing, deal economics and risk flags fo
 | ChatGPT (Plus and up, developer mode) | `https://api.callboard.fm/sse/` |
 
 Sign in with your Callboard account when prompted — OAuth 2.1, no API keys.
-Full setup guide: **https://www.callboard.fm/docs/mcp**
+No account yet? [Sign up](https://www.callboard.fm/sign-up) first; new accounts come
+with 2 free briefs. Full setup guide: **https://www.callboard.fm/docs/mcp**
 
 ## What it can do
 
 | Tool | |
 |---|---|
-| `run_brief` | Start a Promoter Brief for an artist + market question (~5 minutes; uses one brief from your monthly allowance) |
+| `run_brief` | Start a Promoter Brief for an artist + market question (~5 minutes; uses one of your briefs) |
 | `get_brief_job` | Progress of a running brief; the memo and full brief when it finishes |
 | `get_brief` / `list_briefs` | Read and browse your (and your team's) brief history |
 | `search_artists` | Resolve which artist you mean |
 | `get_watchlist` | Artists you're watching |
-| `get_account` | Plan and remaining allowance |
+| `get_account` | Plan and briefs left (free, this period's, and any bought in a pack) |
 | `search` / `fetch` | ChatGPT connector contract over your briefs |
 
 Reading tools are read-only annotated; `run_brief` is the only tool that spends
-anything. The connector is included on the **Buyer** and **Company** plans —
-see [pricing](https://www.callboard.fm/pricing).
+anything. Every Callboard account can use the connector, on any plan or none: briefs
+come from the 2 free briefs a new account starts with, then your plan or a brief
+pack — see [pricing](https://www.callboard.fm/pricing).
 
 ## Privacy & support
 
